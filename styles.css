@@ -59,6 +59,10 @@ header {
 .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
 }
+
+.flip-card:focus .flip-card-inner {
+    transform: rotateY(180deg);
+}
   
 .flip-card-front, .flip-card-back {
     position: absolute;
@@ -93,6 +97,7 @@ ul, li {
 }
 
 @media screen and (max-width: 550px) {
+
     main {
         grid-template-columns: 100%;
     }
